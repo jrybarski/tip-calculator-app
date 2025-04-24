@@ -146,3 +146,58 @@ li {
   color: var(--Grey400);
   font-size: 16px;
 }
+
+.results {
+  background-color: var(--Green900);
+  margin: 25px 0 25px 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+}
+
+.tip-amount {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tip-amount h1 {
+  color: var(--Green400);
+  font-size: 28px;
+}
+
+.tipamount-person {
+  display: flex;
+  flex-direction: column;
+}
+.tipamount-person h1,
+h2 {
+  padding: 0;
+  margin: 0;
+}
+
+.tipamount-person h1 {
+  font-size: 18px;
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  color: var(--White);
+}
+.tipamount-person h2 {
+  font-size: 14px;
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  color: var(--Grey400);
+}
+
+.button-reset {
+  background-color: var(--Green400);
+  font-size: 20px;
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  color: var(--Green900);
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: none;
+}
