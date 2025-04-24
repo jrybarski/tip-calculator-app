@@ -103,13 +103,32 @@ li {
   color: var(--White);
   font-size: 22px;
   padding: 5px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 700;
+  font-family: "Space Mono", monospace;
 }
 
+.tip-custom {
+  background-color: var(--Grey50);
+  font-size: 12px;
+  padding: 0;
+  color: black;
+}
+.tip-custom-input {
+  font-family: "Space Mono", monospace;
+  text-align: center;
+  font-weight: 700;
+  background-color: var(--Grey50);
+  font-size: 12px;
+  color: black;
+}
 .tip-grid input {
   text-align: center;
   width: 147.5px;
   border: none;
   background-color: var(--Grey50);
-  color: var(--White);
-  font-size: 32px;
+  color: var(--Green900);
+  font-family: "Space Mono", monospace;
+  font-size: 28px;
 }
