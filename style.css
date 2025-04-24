@@ -132,3 +132,17 @@ li {
   font-family: "Space Mono", monospace;
   font-size: 28px;
 }
+
+.numberOfPeople h1 {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  color: var(--Grey400);
+  font-size: 16px;
+}
+
+.bill h1 {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  color: var(--Grey400);
+  font-size: 16px;
+}
