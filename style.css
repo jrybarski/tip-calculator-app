@@ -36,6 +36,8 @@ body {
   margin: 0 auto;
   margin-top: 30px;
   background-color: var(--White);
+  padding-bottom: 15px;
+  border-radius: 25px;
 }
 
 .content {
@@ -149,7 +151,7 @@ li {
 
 .results {
   background-color: var(--Green900);
-  margin: 25px 0 25px 0;
+  margin: 25px 25px 25px 25px;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -200,4 +202,62 @@ h2 {
   margin-top: 10px;
   border-radius: 10px;
   border: none;
+}
+
+@media (min-width: 90rem) {
+  .container {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .results {
+    width: 45%;
+  }
+  .content {
+    width: 45%;
+  }
+  .tip-grid ul {
+    grid-template-columns: 3;
+    grid-template-rows: 2;
+  }
+  .tip-5 {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .tip-10 {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .tip-15 {
+    grid-column: 3;
+    grid-row: 1;
+  }
+
+  li {
+    width: 110px;
+    padding: 10px 5px 10px 5px;
+  }
+  li:nth-child(6) {
+    height: 20px;
+    position: relative;
+    left: -10px;
+    top: 7px;
+  }
+  .input-container {
+    width: 100%;
+  }
+
+  .button-reset {
+    width: 90%;
+    align-self: center;
+    margin-top: 60px;
+    padding: 10px 5px 10px 5px;
+    border-radius: 10px;
+  }
+  .tip-amount .total-output {
+    font-size: 40px;
+  }
+  .tip-amount .tip-output {
+    font-size: 40px;
+  }
 }

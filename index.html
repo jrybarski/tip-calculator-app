@@ -32,7 +32,7 @@
           <h1>Bill</h1>
           <div class="input-container">
             <img src="/images/icon-dollar.svg" alt="Dollar Icon" />
-            <input type="text" placeholder="00.00" />
+            <input type="text" placeholder="00.00" class="bill-input" />
           </div>
         </div>
         <div class="tip">
@@ -58,26 +58,26 @@
           <h1>Number of people</h1>
           <div class="input-container">
             <img src="/images/icon-person.svg" alt="person image" />
-            <input type="text" placeholder="0" />
+            <input type="text" placeholder="0" class="input-number-of-people" />
           </div>
         </div>
-        <div class="results">
-          <div class="tip-amount">
-            <div class="tipamount-person">
-              <h1>Tip Amount</h1>
-              <h2>/ person</h2>
-            </div>
-            <h1>$00.00</h1>
+      </div>
+      <div class="results">
+        <div class="tip-amount">
+          <div class="tipamount-person">
+            <h1>Tip Amount</h1>
+            <h2>/ person</h2>
           </div>
-          <div class="tip-amount">
-            <div class="tipamount-person">
-              <h1>Total</h1>
-              <h2>/ person</h2>
-            </div>
-            <h1>$00.00</h1>
-          </div>
-          <button class="button-reset">RESET</button>
+          <h1 class="tip-output">$00.00</h1>
         </div>
+        <div class="tip-amount">
+          <div class="tipamount-person">
+            <h1>Total</h1>
+            <h2>/ person</h2>
+          </div>
+          <h1 class="total-output">$00.00</h1>
+        </div>
+        <button class="button-reset">RESET</button>
       </div>
     </div>
   </body>
